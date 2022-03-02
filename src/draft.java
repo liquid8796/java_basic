@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class run {
+public class draft {
     public static void printList(int[] list){
         for (int i = 0; i < list.length; i++) {
             System.out.print(list[i]+" ");
@@ -29,9 +29,9 @@ public class run {
         merge(S1, S2, S);
     }
     public static void main(String[] args) {        
-        int[] list = {1,3,8,9,15,20,18,17,7,4,0};       
-        printList(list);
+        int[] list = {1,3,8,9,15,20,18,17,7,4,0};            printList(list);
         mergeSort(list);
         printList(list);
-    } 
+    }
+
 }
