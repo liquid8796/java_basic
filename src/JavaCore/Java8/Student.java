@@ -1,4 +1,4 @@
-package JavaCore.Collections;
+package JavaCore.Java8;
 
 public class Student {
     private int id;

@@ -1,4 +1,4 @@
-package JavaCore.Collections;
+package JavaCore.Java8;
 
 import java.util.ArrayList;
 import static java.util.Comparator.comparing;
