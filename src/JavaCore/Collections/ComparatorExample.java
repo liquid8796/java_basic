@@ -29,7 +29,7 @@ public class ComparatorExample {
         for (Student student : listStudents) {
             System.err.println(student.toString());
         }
-        // sort list student by it's age ASC
+        // sort list student by age ASC
         System.out.println("sort list student by it's age ASC: ");
         Collections.sort(listStudents, new Comparator<Student>(){
             @Override
