@@ -29,9 +29,13 @@ public class draft {
         merge(S1, S2, S);
     }
     public static void main(String[] args) {        
-        int[] list = {1,3,8,9,15,20,18,17,7,4,0};            printList(list);
-        mergeSort(list);
-        printList(list);
+        int[] list = {1,3,8,9,15,20,18,17,7,4,0};
+        int[] a = new int[]{1, 3};
+        for (int x:
+             a) {
+            System.out.println(x);
+        }
+
     }
 
 }
