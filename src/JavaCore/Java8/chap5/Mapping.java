@@ -2,7 +2,6 @@ package JavaCore.Java8.chap5;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static JavaCore.Java8.chap5.Dish.menu;
 import static java.util.stream.Collectors.toList;
