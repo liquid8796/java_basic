@@ -2,6 +2,7 @@ package JavaCore.Java8.chap5;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
@@ -70,10 +71,18 @@ public class PuttingIntoPractice {
                 .reduce(0, Integer::max);
         System.out.println("Query7: " + query7);
 
-        // Query 8: Update all transactions so that the traders from Milan are set to Cambridge.
+        // Query 8: Find the transaction with the smallest value.
+        Optional<Integer> query8 = transactions.stream()
+                .map(Transaction::getValue)
+                .reduce((a, b) -> a > b ? b : a);
+        System.out.println("Query8: " + query8);
+
+        // Query 9: Update all transactions so that the traders from Milan are set to Cambridge.
         transactions.stream()
                 .filter(t -> t.getTrader().getCity().equals("Milan"))
                 .forEach(t -> t.getTrader().setCity("Cambridge"));
-        System.out.println("Query7: " + transactions);
+        System.out.println("Query9: " + transactions);
+
+
     }
 }

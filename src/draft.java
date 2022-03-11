@@ -30,10 +30,12 @@ public class draft {
     }
     public static void main(String[] args) {        
         int[] list = {1,3,8,9,15,20,18,17,7,4,0};
-        int[] a = new int[]{1, 3};
-        for (int x:
-             a) {
-            System.out.println(x);
+        int hi = 0, lo = 1;
+        System.out.print(hi+" ");
+        while(lo < 50){
+            System.out.print(lo+" ");
+            lo = hi + lo;
+            hi = lo - hi;
         }
 
     }
