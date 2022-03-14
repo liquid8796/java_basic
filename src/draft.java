@@ -1,5 +1,9 @@
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.function.IntSupplier;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class draft {
     public static void printList(int[] list){
@@ -30,13 +34,14 @@ public class draft {
     }
     public static void main(String[] args) {        
         int[] list = {1,3,8,9,15,20,18,17,7,4,0};
-        int hi = 0, lo = 1;
-        System.out.print(hi+" ");
-        while(lo < 50){
-            System.out.print(lo+" ");
-            lo = hi + lo;
-            hi = lo - hi;
-        }
+
+        List<Integer> numbers = Arrays.asList(1, 3, 5, 8);
+
+
+
+
+
+
     }
 
 }
