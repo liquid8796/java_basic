@@ -1,9 +1,9 @@
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.IntSupplier;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
+
+import static JavaCore.Java8.chap6.Dish.menu;
+import static java.util.stream.Collectors.*;
 
 public class draft {
     public static void printList(int[] list){
@@ -34,10 +34,6 @@ public class draft {
     }
     public static void main(String[] args) {        
         int[] list = {1,3,8,9,15,20,18,17,7,4,0};
-
-        List<Integer> numbers = Arrays.asList(1, 3, 5, 8);
-
-
 
 
 
