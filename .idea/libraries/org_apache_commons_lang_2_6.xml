@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.apache.commons.lang-2.6">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="jar://$USER_HOME$/Desktop/org.apache.commons.lang-2.6.jar!/" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
