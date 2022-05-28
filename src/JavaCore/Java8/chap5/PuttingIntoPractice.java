@@ -41,7 +41,7 @@ public class PuttingIntoPractice {
         List<Trader> query3 = transactions.stream()
                 .map(Transaction::getTrader)
                 .filter(c -> c.getCity().equals("Cambridge"))
-                .sorted(comparing(Trader::getCity))
+                .sorted(comparing(Trader::getName))
                 .collect(toList());
         System.out.println("Query3: " + query3);
 
