@@ -1,6 +1,6 @@
 package JavaCore.Collections;
 
-public class Student {
+public class Student implements Comparable<Student>{
     private int id;
     private String name;
     private int age;
@@ -54,4 +54,8 @@ public class Student {
                 + ",age=" + age + ",address=" + address;
     }
 
+    @Override
+    public int compareTo(Student o) {
+        return this.getName().compareTo(o.getName());
+    }
 }

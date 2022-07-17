@@ -22,7 +22,10 @@ public class draft {
 
     public static void main(String[] args) {
 
-
+        Human human = new Human();
+        human.work();
+        human.sleep();
+        human.dead();
     }
 
 }
